@@ -1,46 +1,42 @@
-# CoreRazorPagesDemo1 — ASP.NET Core Razor Pages
+# Customer Management System (Razor Pages)
 
 ## 📌 Project Overview
-ASP.NET Core Razor Pages application with complete
-CRUD operations using Entity Framework Core and SQL Server.
+A web application built using ASP.NET Core Razor Pages to perform complete CRUD operations on customer data. The project demonstrates page-based architecture, database integration, and form handling using Entity Framework Core.
 
-## 📁 Pages Created
+## 🚀 Features
+- Display all customers from SQL Server database
+- View detailed information of a single customer
+- Add new customer records
+- Edit existing customer data
+- Delete customer records with confirmation
+- Responsive UI using Bootstrap
 
-### 1. Index Page (Display All Customers)
-- Displays all active customers from database
-- Links to Details, Edit, Delete actions
-- Add New Customer link
+## 🛠️ Tech Stack
+- Backend: ASP.NET Core Razor Pages, C#
+- Database: SQL Server
+- ORM: Entity Framework Core (Database First)
+- Frontend: HTML, CSS, Bootstrap
 
-### 2. DisplayCustomer Page
-- Displays single customer details
-- Back to Customer Details link
-
-### 3. AddCustomer Page
-- Form to add new customer
-- OnPost handler saves to database
-- Redirects to Index after save
-
-### 4. EditCustomer Page
-- Form to edit existing customer
-- OnGet loads customer data
-- OnPost updates database
-- Redirects to Index after update
-
-### 5. DeleteCustomer Page
-- Shows customer details before delete
-- OnPost removes from database
-- Redirects to Index after delete
-
-## 💻 Tech Stack
-- C# | ASP.NET Core Razor Pages
-- Entity Framework Core
-- SQL Server
-- HTML | CSS | Bootstrap
-
-## 🔑 Key Concepts
+## ⚙️ Key Concepts Implemented
 - Razor Pages Architecture
-- Entity Framework Core (Database First)
+- Entity Framework Core (Database First Approach)
 - Scaffold-DbContext Command
-- OnGet & OnPost Handlers
 - Dependency Injection
 - CRUD Operations with EF Core
+- OnGet and OnPost Handlers
+
+## 📂 Pages Included
+- **Index Page** – Displays all customers with action links
+- **Details Page** – Shows individual customer details
+- **Add Customer Page** – Form to create new customer
+- **Edit Customer Page** – Update existing records
+- **Delete Customer Page** – Confirm and delete records
+
+## ▶️ How to Run
+1. Clone the repository
+2. Open the project in Visual Studio
+3. Configure SQL Server connection string
+4. Run the application
+
+## 👩‍💻 Author
+Gayathri Pulasetti
